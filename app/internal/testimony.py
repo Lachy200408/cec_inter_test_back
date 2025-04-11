@@ -28,3 +28,10 @@ async def create(db: DBSession, testimony: TestimonyRequest):
 		return new_testimony
 	except Exception as e:
 		raise e
+
+async def delete_all(db: DBSession):
+  try:
+    db.delete(TestimonyEntity)
+    db.commit()
+  except Exception as e:
+    raise e

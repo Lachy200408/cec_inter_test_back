@@ -28,3 +28,10 @@ async def create(db: DBSession, master: MasterRequest):
 		return new_master
 	except Exception as e:
 		raise e
+
+async def delete_all(db: DBSession):
+  try:
+    db.delete(MasterEntity)
+    db.commit()
+  except Exception as e:
+    raise e
