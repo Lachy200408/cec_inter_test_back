@@ -4,13 +4,13 @@ services:
   app:
     build: .
     container_name:
-      cec_inter_test_back
-    links:
-      - db
+      cec_back
     volumes:
       - ./:/usr/src/app
     ports:
       - 8000:8000
+    links:
+      - db
     depends_on:
       - db
     environment:
@@ -21,6 +21,7 @@ services:
       - DB_PORT=5432
   db:
     image: postgres:latest
+    container_name: cec_db
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=02357110
