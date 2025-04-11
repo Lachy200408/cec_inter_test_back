@@ -2,4 +2,4 @@ fastapi[standard]
 uvicorn
 sqlmodel
 load_dotenv
-psycopg2
+psycopg2-binary

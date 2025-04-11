@@ -1,0 +1,29 @@
+version: '3.3'
+
+services:
+  app:
+    build: .
+    container_name:
+      cec_inter_test_back
+    links:
+      - db
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_USER=admin
+      - DB_PASSWORD=02357110
+      - DB_NAME=cec_test
+      - DB_PORT=5432
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=02357110
+      - POSTGRES_DB=cec_test
+    ports:
+      - 5432:5432
