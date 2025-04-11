@@ -1,3 +1,4 @@
+from app.models.base.course_category import CourseCategoryBase
 from sqlmodel import Field, SQLModel
 
 class CourseBase(SQLModel):
@@ -8,3 +9,4 @@ class CourseBase(SQLModel):
   college: str = Field(title="Nombre de la universidad", max_length=50, min_length=3)
   rating: int = Field(title="Valoración del curso", le=5, ge=0)
   users: int = Field(title="Usuarios del curso", ge=0)
+  category: CourseCategoryBase = Field(title="Categoría del curso")
