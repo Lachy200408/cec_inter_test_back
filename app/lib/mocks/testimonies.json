@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 1",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 2",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 3",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 4",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 5",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 6",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 7",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 8",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	},
+	{
+		"name": "Lazaro",
+		"testimony": "Testimonio 9",
+		"image": "/master-1.png",
+		"occupation": "Desarrollador",
+		"rating": 4
+	}
+]
